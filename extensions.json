@@ -1,0 +1,620 @@
+[
+  {
+    "name": "auxmoney",
+    "key": "auxmoney",
+    "description": "Bestandsabfrage für auxmoney, entwickelt von Robert Gering.",
+    "owner": "gering",
+    "repo": "MoneyMoney-auxmoney-Extension",
+    "files": [
+      "auxmoney.lua"
+    ],
+    "url": "https://github.com/gering/MoneyMoney-auxmoney-Extension/"
+  },
+  {
+    "name": "Binance",
+    "key": "binance",
+    "description": "Bestandsabfrage für Binance, entwickelt von Johannes Heck.",
+    "owner": "yoyostile",
+    "repo": "moneymoney-binance",
+    "files": [
+      "dist/binance.lua"
+    ],
+    "url": "https://github.com/yoyostile/moneymoney-binance/"
+  },
+  {
+    "name": "Bitcoin",
+    "key": "bitcoin",
+    "description": "Bestandsabfrage für Bitcoin, entwickelt von Udo Bretz.",
+    "owner": "UdoBretz",
+    "repo": "Bitcoin-MoneyMoney",
+    "files": [
+      "Bitcoin.lua"
+    ],
+    "url": "https://github.com/UdoBretz/Bitcoin-MoneyMoney/"
+  },
+  {
+    "name": "Bitcoin Cash",
+    "key": "bitcoin-cash",
+    "description": "Bestandsabfrage für Bitcoin Cash, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "Bitcoin-Cash-MoneyMoney",
+    "files": [
+      "Bitcoin Cash.lua"
+    ],
+    "url": "https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney/"
+  },
+  {
+    "name": "Bitcoin.de",
+    "key": "bitcoin-de",
+    "description": "Bestandsabfrage für Bitcoin.de, entwickelt von Robert Gering.",
+    "owner": "gering",
+    "repo": "MoneyMoney-Bitcoin.de-Extension",
+    "files": [
+      "bitcoin.de.lua"
+    ],
+    "url": "https://github.com/gering/MoneyMoney-Bitcoin.de-Extension/"
+  },
+  {
+    "name": "Bitfinex",
+    "key": "bitfinex",
+    "description": "Bestandsabfrage für Bitfinex, entwickelt von Benjamin Fritsch.",
+    "owner": "beanieboi",
+    "repo": "moneymoney-bitfinex",
+    "files": [
+      "bitfinex.lua"
+    ],
+    "url": "https://github.com/beanieboi/moneymoney-bitfinex/"
+  },
+  {
+    "name": "Bitstamp",
+    "key": "bitstamp",
+    "description": "Bestandsabfrage für Bitstamp, entwickelt von Benjamin Fritsch.",
+    "owner": "beanieboi",
+    "repo": "moneymoney-bitstamp",
+    "files": [
+      "bitstamp.lua"
+    ],
+    "url": "https://github.com/beanieboi/moneymoney-bitstamp/"
+  },
+  {
+    "name": "Bittrex",
+    "key": "bittrex",
+    "description": "Bestandsabfrage für Bittrex, entwickelt von Jonathan Schubert.",
+    "owner": "JonathanSchubert",
+    "repo": "moneymoney-bittrex",
+    "files": [
+      "dist/Bittrex.lua"
+    ],
+    "url": "https://github.com/JonathanSchubert/moneymoney-bittrex/"
+  },
+  {
+    "name": "Bondora",
+    "key": "bondora",
+    "description": "Bestandsabfrage für Bondora, entwickelt von Martin Dinh.",
+    "owner": "EmDee",
+    "repo": "moneymoney-bondora",
+    "files": [
+      "Bondora.lua"
+    ],
+    "url": "https://github.com/EmDee/moneymoney-bondora/"
+  },
+  {
+    "name": "Cardano",
+    "key": "cardano",
+    "description": "Bestandsabfrage für Cardano, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "Cardano-MoneyMoney",
+    "files": [
+      "Cardano.lua"
+    ],
+    "url": "https://github.com/aaronk6/Cardano-MoneyMoney/"
+  },
+  {
+    "name": "Coinbase",
+    "key": "coinbase",
+    "description": "Bestandsabfrage für Coinbase, entwickelt von Nico Lindemann.",
+    "owner": "nicolindemann",
+    "repo": "coinbase-moneymoney",
+    "files": [
+      "dist/Coinbase.lua"
+    ],
+    "url": "https://github.com/nicolindemann/coinbase-moneymoney/"
+  },
+  {
+    "name": "Coinbase Pro",
+    "key": "coinbase-pro",
+    "description": "Bestandsabfrage für Coinbase Pro, entwickelt von Leo Schweizer.",
+    "owner": "leoschweizer",
+    "repo": "moneymoney-coinbase-pro",
+    "files": [
+      "Coinbase Pro.lua"
+    ],
+    "url": "https://github.com/leoschweizer/moneymoney-coinbase-pro/"
+  },
+  {
+    "name": "Cryptopia",
+    "key": "cryptopia",
+    "description": "Bestandsabfrage für Cryptopia, entwickelt von Carsten Rietzschel.",
+    "owner": "crietzschel",
+    "repo": "moneymoney-cryptopia",
+    "files": [
+      "dist/Cryptopia.lua"
+    ],
+    "url": "https://github.com/crietzschel/moneymoney-cryptopia/"
+  },
+  {
+    "name": "Dash",
+    "key": "dash",
+    "description": "Bestandsabfrage für Dash, entwickelt von Heinrich Seifert.",
+    "owner": "heseifert",
+    "repo": "Dash-MoneyMoney",
+    "files": [
+      "Dash.lua"
+    ],
+    "url": "https://github.com/heseifert/Dash-MoneyMoney/"
+  },
+  {
+    "name": "EOS",
+    "key": "eos",
+    "description": "Bestandsabfrage für EOS, entwickelt von Jason Scurtu.",
+    "owner": "jscurtu",
+    "repo": "moneymoney-extension-eos",
+    "files": [
+      "Eosio.lua"
+    ],
+    "url": "https://github.com/jscurtu/moneymoney-extension-eos/"
+  },
+  {
+    "name": "EstateGuru",
+    "key": "estateguru",
+    "description": "Bestandsabfrage für EstateGuru, entwickelt von Benjamin Fritsch.",
+    "owner": "beanieboi",
+    "repo": "moneymoney-estateguru",
+    "files": [
+      "estateguru.lua"
+    ],
+    "url": "https://github.com/beanieboi/moneymoney-estateguru/"
+  },
+  {
+    "name": "Ethereum",
+    "key": "ethereum",
+    "description": "Bestandsabfrage für Ethereum, entwickelt von Dr. Johannes Jacubeit.",
+    "owner": "Jacubeit",
+    "repo": "Ethereum-MoneyMoney",
+    "files": [
+      "Ether Classic.lua",
+      "Ether.lua"
+    ],
+    "url": "https://github.com/Jacubeit/Ethereum-MoneyMoney/"
+  },
+  {
+    "name": "Ethereum mit Erc20-Tokens",
+    "key": "ethereum-er20-aaronk6",
+    "description": "Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "ERC20-MoneyMoney",
+    "files": [
+      "ERC20.lua"
+    ],
+    "url": "https://github.com/aaronk6/ERC20-MoneyMoney/"
+  },
+  {
+    "name": "Ethereum mit Erc20-Tokens",
+    "key": "ethereum-er20-crietzschel",
+    "description": "Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Carsten Rietzschel.",
+    "owner": "crietzschel",
+    "repo": "moneymoney-ethereum-tokens",
+    "files": [
+      "dist/Ether-Erc20-Tokens.lua"
+    ],
+    "url": "https://github.com/crietzschel/moneymoney-ethereum-tokens/"
+  },
+  {
+    "name": "HitBTC",
+    "key": "hitbtc",
+    "description": "Bestandsabfrage für HitBTC, entwickelt von Stefan Gradl.",
+    "owner": "gradlman",
+    "repo": "moneymoney-hitbtc",
+    "files": [
+      "dist/hitbtc.lua"
+    ],
+    "url": "https://github.com/gradlman/moneymoney-hitbtc/"
+  },
+  {
+    "name": "IOTA",
+    "key": "iota",
+    "description": "Bestandsabfrage für IOTA, entwickelt von Philipp Sperber.",
+    "owner": "psperber",
+    "repo": "IOTA-MoneyMoney",
+    "files": [
+      "IOTA.lua"
+    ],
+    "url": "https://github.com/psperber/IOTA-MoneyMoney/"
+  },
+  {
+    "name": "Kraken",
+    "key": "kraken",
+    "description": "Bestandsabfrage für Kraken, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "Kraken-MoneyMoney",
+    "files": [
+      "Kraken.lua"
+    ],
+    "url": "https://github.com/aaronk6/Kraken-MoneyMoney/"
+  },
+  {
+    "name": "Litecoin",
+    "key": "litecoin",
+    "description": "Bestandsabfrage für Litecoin, entwickelt von Jeffrey Hochwart.",
+    "owner": "zafai",
+    "repo": "Litecoin-MoneyMoney",
+    "files": [
+      "Litecoin.lua"
+    ],
+    "url": "https://github.com/zafai/Litecoin-MoneyMoney/"
+  },
+  {
+    "name": "Nano",
+    "key": "nano",
+    "description": "Bestandsabfrage für Nano, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "Nano-MoneyMoney",
+    "files": [
+      "Nano.lua"
+    ],
+    "url": "https://github.com/aaronk6/Nano-MoneyMoney/"
+  },
+  {
+    "name": "NEO",
+    "key": "neo",
+    "description": "Bestandsabfrage für NEO, entwickelt von Dr. Johannes Jacubeit.",
+    "owner": "Jacubeit",
+    "repo": "NEO-MoneyMoney",
+    "files": [
+      "NEO.lua"
+    ],
+    "url": "https://github.com/Jacubeit/NEO-MoneyMoney/"
+  },
+  {
+    "name": "Nimiq",
+    "key": "nimiq",
+    "description": "Bestandsabfrage für Nimiq, entwickelt von Pascal Berrang.",
+    "owner": "paberr",
+    "repo": "nimiq-moneymoney",
+    "files": [
+      "Nimiq.lua"
+    ],
+    "url": "https://github.com/paberr/nimiq-moneymoney/"
+  },
+  {
+    "name": "Oikocredit",
+    "key": "oikocredit",
+    "description": "Bestandsabfrage für Oikocredit, entwickelt von Adrian Philipp.",
+    "owner": "adri",
+    "repo": "moneymoney-oikocredit-nl",
+    "files": [
+      "oikokredit.lua"
+    ],
+    "url": "https://github.com/adri/moneymoney-oikocredit-nl/"
+  },
+  {
+    "name": "Ripple",
+    "key": "ripple",
+    "description": "Bestandsabfrage für Ripple, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "Ripple-MoneyMoney",
+    "files": [
+      "Ripple.lua"
+    ],
+    "url": "https://github.com/aaronk6/Ripple-MoneyMoney/"
+  },
+  {
+    "name": "Stellar",
+    "key": "stellar",
+    "description": "Bestandsabfrage für Stellar, entwickelt von Heinrich Seifert.",
+    "owner": "heseifert",
+    "repo": "Stellar-MoneyMoney",
+    "files": [
+      "Stellar.lua"
+    ],
+    "url": "https://github.com/heseifert/Stellar-MoneyMoney/"
+  },
+  {
+    "name": "Storj",
+    "key": "storj",
+    "description": "Bestandsabfrage für Storj, entwickelt von Silsha Fux.",
+    "owner": "silsha",
+    "repo": "STORJ-MoneyMoney",
+    "files": [
+      "Storj.lua"
+    ],
+    "url": "https://github.com/silsha/STORJ-MoneyMoney/"
+  },
+  {
+    "name": "TRON",
+    "key": "tron",
+    "description": "Bestandsabfrage für TRON, entwickelt von Aaron Könsgen.",
+    "owner": "aaronk6",
+    "repo": "TRON-MoneyMoney",
+    "files": [
+      "TRON.lua"
+    ],
+    "url": "https://github.com/aaronk6/TRON-MoneyMoney/"
+  },
+  {
+    "name": "Twino",
+    "key": "twino",
+    "description": "Bestandsabfrage für Twino, entwickelt von Benjamin Fritsch.",
+    "owner": "beanieboi",
+    "repo": "moneymoney-twino",
+    "files": [
+      "twino.lua"
+    ],
+    "url": "https://github.com/beanieboi/moneymoney-twino/"
+  },
+  {
+    "name": "Zcash",
+    "key": "zcash",
+    "description": "Bestandsabfrage für Zcash, entwickelt von Carsten Rietzschel.",
+    "owner": "crietzschel",
+    "repo": "moneymoney-zcash",
+    "files": [
+      "dist/Zcash.lua"
+    ],
+    "url": "https://github.com/crietzschel/moneymoney-zcash/"
+  },
+  {
+    "name": "Addiko Bank",
+    "key": "addiko-bank",
+    "description": "Kontostand- und Umsatzabfrage für die Addiko Bank, entwickelt von Ulrich Lehner.",
+    "owner": "ulrichson",
+    "repo": "moneymoney-addiko-at",
+    "files": [
+      "AddikoAustria.lua"
+    ],
+    "url": "https://github.com/ulrichson/moneymoney-addiko-at/"
+  },
+  {
+    "name": "Amazon",
+    "key": "amazon",
+    "description": "Kontostand- und Umsatzabfrage für Amazon, entwickelt von Michael Beutling.",
+    "owner": "Michael-Beutling",
+    "repo": "Amazon-MoneyMoney",
+    "files": [
+      "amazon-orders.lua"
+    ],
+    "url": "https://github.com/Michael-Beutling/Amazon-MoneyMoney/"
+  },
+  {
+    "name": "Appfigures",
+    "key": "appfigures",
+    "description": "Kontostand- und Umsatzabfrage für Appfigures, entwickelt von Frank Rausch.",
+    "owner": "frankrausch",
+    "repo": "MoneyMoney-Appfigures-Extension",
+    "files": [
+      "Appfigures.lua"
+    ],
+    "url": "https://github.com/frankrausch/MoneyMoney-Appfigures-Extension/"
+  },
+  {
+    "name": "BAWAG PSK",
+    "key": "bawag-psk",
+    "description": "Kontostand- und Umsatzabfrage für die BAWAG PSK, entwickelt von frittex.",
+    "owner": "frittex",
+    "repo": "moneymoney-bawagpsk",
+    "files": [
+      "mm-bawagpsk.lua"
+    ],
+    "url": "https://github.com/frittex/moneymoney-bawagpsk/"
+  },
+  {
+    "name": "easybank",
+    "key": "easybank",
+    "description": "Kontostand- und Umsatzabfrage für die easybank, entwickelt von Martin Hammerschmied.",
+    "owner": "kolomanschaft",
+    "repo": "mm-easybank",
+    "files": [
+      "EasyBank.lua"
+    ],
+    "url": "https://github.com/kolomanschaft/mm-easybank/"
+  },
+  {
+    "name": "Lloyds Bank UK",
+    "key": "lloyds-bank-uk",
+    "description": "Kontostand- und Umsatzabfrage für die Lloyds Bank UK, entwickelt von Gerard Delmàs.",
+    "owner": "gdelmas",
+    "repo": "LloydsBank-MoneyMoney",
+    "files": [
+      "Lloyds Bank UK.lua"
+    ],
+    "url": "https://github.com/gdelmas/LloydsBank-MoneyMoney/"
+  },
+  {
+    "name": "Moneyou Österreich",
+    "key": "moneyou-at",
+    "description": "Kontostand- und Umsatzabfrage für Moneyou Österreich, entwickelt von Ulrich Lehner.",
+    "owner": "ulrichson",
+    "repo": "moneymoney-moneyou-at",
+    "files": [
+      "MoneyouAustria.lua"
+    ],
+    "url": "https://github.com/ulrichson/moneymoney-moneyou-at/"
+  },
+  {
+    "name": "Monzo",
+    "key": "monzo",
+    "description": "Kontostand- und Umsatzabfrage für Monzo, entwickelt von Stephan Diederich.",
+    "owner": "diederich",
+    "repo": "moneymoney-monzo",
+    "files": [
+      "src/Monzo.lua"
+    ],
+    "url": "https://github.com/diederich/moneymoney-monzo/"
+  },
+  {
+    "name": "Oberbank Österreich",
+    "key": "oberbank-at",
+    "description": "Kontostand- und Umsatzabfrage für die Oberbank Österreich, entwickelt von Martin Hammerschmied.",
+    "owner": "kolomanschaft",
+    "repo": "mm-oberbank",
+    "files": [
+      "Oberbank.lua"
+    ],
+    "url": "https://github.com/kolomanschaft/mm-oberbank/"
+  },
+  {
+    "name": "Paxum",
+    "key": "paxum",
+    "description": "Kontostand- und Umsatzabfrage für Paxum, entwickelt von Philip Günther.",
+    "owner": "iam-pac-man",
+    "repo": "moneymoney-paxum",
+    "files": [
+      "dist/Paxum.lua"
+    ],
+    "url": "https://github.com/iam-pac-man/moneymoney-paxum/"
+  },
+  {
+    "name": "PayLife",
+    "key": "paylife",
+    "description": "Kontostand- und Umsatzabfrage für die PayLife MasterCard RED, entwickelt von Lukas Köll.",
+    "owner": "phpwutz",
+    "repo": "moneymoney-mastercardred-ext",
+    "files": [
+      "MasterCard RED.lua"
+    ],
+    "url": "https://github.com/phpwutz/moneymoney-mastercardred-ext/"
+  },
+  {
+    "name": "Permanent TSB Business",
+    "key": "permanent-tsb-business",
+    "description": "Kontostand- und Umsatzabfrage für Permanent TSB Business, entwickelt von Jan Münnich.",
+    "owner": "janmuennich",
+    "repo": "MoneyMoney-Permanent-TSB-Business",
+    "files": [
+      "Permanent TSB Business.lua"
+    ],
+    "url": "https://github.com/janmuennich/MoneyMoney-Permanent-TSB-Business/"
+  },
+  {
+    "name": "Shoop",
+    "key": "shoop",
+    "description": "Kontostand- und Umsatzabfrage für Shoop, entwickelt von Gregor Harlan.",
+    "owner": "gharlan",
+    "repo": "moneymoney-shoop",
+    "files": [
+      "Shoop.lua"
+    ],
+    "url": "https://github.com/gharlan/moneymoney-shoop/"
+  },
+  {
+    "name": "Stripe",
+    "key": "stripe",
+    "description": "Kontostand- und Umsatzabfrage für Stripe, entwickelt von Nico Lindemann.",
+    "owner": "nicolindemann",
+    "repo": "stripe-moneymoney",
+    "files": [
+      "dist/Stripe.lua"
+    ],
+    "url": "https://github.com/nicolindemann/stripe-moneymoney/"
+  },
+  {
+    "name": "TrueLayer",
+    "key": "truelayer",
+    "description": "Kontostand- und Umsatzabfrage für TrueLayer, entwickelt von Michael Elsdörfer.",
+    "owner": "miracle2k",
+    "repo": "moneymoney-truelayer",
+    "files": [
+      "TrueLayer.lua"
+    ],
+    "url": "https://github.com/miracle2k/moneymoney-truelayer/"
+  },
+  {
+    "name": "Bergfürst",
+    "key": "bergfürst",
+    "description": "Wertpapierabfrage für Bergfürst, entwickelt von Nico Lindemann.",
+    "owner": "nicolindemann",
+    "repo": "bergfuerst-moneymoney",
+    "files": [
+      "dist/bergfuerst.lua"
+    ],
+    "url": "https://github.com/nicolindemann/bergfuerst-moneymoney/"
+  },
+  {
+    "name": "EquatePlus",
+    "key": "equateplus",
+    "description": "Wertpapierabfrage für EquatePlus, entwickelt von Michael Beutling.",
+    "owner": "Michael-Beutling",
+    "repo": "equateplus-moneymoney",
+    "files": [
+      "EquatePlus.lua"
+    ],
+    "url": "https://github.com/Michael-Beutling/equateplus-moneymoney/"
+  },
+  {
+    "name": "fairr.de",
+    "key": "fairr-de",
+    "description": "Wertpapierabfrage für fairr.de, entwickelt von Stefan Ditscheid.",
+    "owner": "Struppie",
+    "repo": "MoneyMoney---Extensions",
+    "files": [
+      "fairrByRaisin.lua"
+    ],
+    "url": "https://github.com/Struppie/MoneyMoney---Extensions/"
+  },
+  {
+    "name": "Fidelity NetBenefits",
+    "key": "fidelity-netbenefits",
+    "description": "Wertpapierabfrage für Fidelity NetBenefits, entwickelt von Lukas Spieß.",
+    "owner": "lumaxis",
+    "repo": "fidelity-netbenefits",
+    "files": [
+      "Fidelity NetBenefits.lua"
+    ],
+    "url": "https://github.com/lumaxis/fidelity-netbenefits/"
+  },
+  {
+    "name": "Planetshares BNP Paribas",
+    "key": "planetshares-bnp-paribas",
+    "description": "Wertpapierabfrage für Planetshares BNP Paribas, entwickelt von Daniel Hähnel.",
+    "owner": "danhae",
+    "repo": "MoneyMoney-Planetshares-BNP-Paribas",
+    "files": [
+      "Planetshares BNP Paribas.lua"
+    ],
+    "url": "https://github.com/danhae/MoneyMoney-Planetshares-BNP-Paribas/"
+  },
+  {
+    "name": "Whitebox",
+    "key": "whitebox",
+    "description": "Wertpapierabfrage für Whitebox, entwickelt von Mirko Weinschenk.",
+    "owner": "mirkowein",
+    "repo": "moneymoney-whitebox",
+    "files": [
+      "Whitebox.lua"
+    ],
+    "url": "https://github.com/mirkowein/moneymoney-whitebox/"
+  },
+  {
+    "name": "HTML-Datei",
+    "key": "html-datei",
+    "description": "Export von Umsätzen als HTML-Datei, entwickelt von Joern Thiemann.",
+    "owner": "SwankyCrones",
+    "repo": "MoneyMoney-Extensions",
+    "files": [
+      "BarCharts.lua"
+    ],
+    "url": "https://github.com/SwankyCrones/MoneyMoney-Extensions/"
+  },
+  {
+    "name": "Kategorie-Summen",
+    "key": "kategorie-summen",
+    "description": "Export von Umsätzen in Form von Kategorie-Summen, entwickelt von Phillip Oertel.",
+    "owner": "phillipoertel",
+    "repo": "moneymoney-extensions",
+    "files": [
+      "CategorySums.lua",
+      "ExportCategories.lua"
+    ],
+    "url": "https://github.com/phillipoertel/moneymoney-extensions/"
+  }
+]
