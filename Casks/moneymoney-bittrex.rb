@@ -1,12 +1,11 @@
 
 cask 'moneymoney-bittrex' do
-  version :latest
+  version '1.20'
   sha256 :no_check
 
-  url "https://github.com/JonathanSchubert/moneymoney-bittrex/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Bittrex.lua'
   name 'MoneyMoney Extension: Bittrex'
-  description 'Bestandsabfrage für Bittrex, entwickelt von Jonathan Schubert.'
-  homepage "https://github.com/JonathanSchubert/moneymoney-bittrex"
+  homepage "https://github.com/JonathanSchubert/moneymoney-bittrex/blob/master/README.md"
 
-  artifact "moneymoney-bittrex-master/dist/Bittrex.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Bittrex.lua"
+  artifact "Bittrex.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Bittrex.lua"
 end

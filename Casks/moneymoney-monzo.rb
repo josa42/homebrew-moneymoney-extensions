@@ -1,12 +1,11 @@
 
 cask 'moneymoney-monzo' do
-  version :latest
+  version '0.91'
   sha256 :no_check
 
-  url "https://github.com/diederich/moneymoney-monzo/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Monzo.lua'
   name 'MoneyMoney Extension: Monzo'
-  description 'Kontostand- und Umsatzabfrage für Monzo, entwickelt von Stephan Diederich.'
-  homepage "https://github.com/diederich/moneymoney-monzo"
+  homepage "https://github.com/diederich/moneymoney-monzo/blob/master/README.md"
 
-  artifact "moneymoney-monzo-master/src/Monzo.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Monzo.lua"
+  artifact "Monzo.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Monzo.lua"
 end

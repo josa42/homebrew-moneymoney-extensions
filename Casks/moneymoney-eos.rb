@@ -1,12 +1,11 @@
 
 cask 'moneymoney-eos' do
-  version :latest
+  version '0.10'
   sha256 :no_check
 
-  url "https://github.com/jscurtu/moneymoney-extension-eos/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Eosio.lua'
   name 'MoneyMoney Extension: EOS'
-  description 'Bestandsabfrage für EOS, entwickelt von Jason Scurtu.'
-  homepage "https://github.com/jscurtu/moneymoney-extension-eos"
+  homepage "https://github.com/jscurtu/moneymoney-extension-eos/blob/master/README.md"
 
-  artifact "moneymoney-extension-eos-master/Eosio.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Eosio.lua"
+  artifact "Eosio.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Eosio.lua"
 end

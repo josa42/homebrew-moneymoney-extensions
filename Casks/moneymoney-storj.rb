@@ -1,12 +1,11 @@
 
 cask 'moneymoney-storj' do
-  version :latest
+  version '0.10'
   sha256 :no_check
 
-  url "https://github.com/silsha/STORJ-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Storj.lua'
   name 'MoneyMoney Extension: Storj'
-  description 'Bestandsabfrage für Storj, entwickelt von Silsha Fux.'
-  homepage "https://github.com/silsha/STORJ-MoneyMoney"
+  homepage "https://github.com/silsha/STORJ-MoneyMoney/blob/master/README.md"
 
-  artifact "STORJ-MoneyMoney-master/Storj.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Storj.lua"
+  artifact "Storj.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Storj.lua"
 end

@@ -1,12 +1,11 @@
 
 cask 'moneymoney-nimiq' do
-  version :latest
+  version '1.10'
   sha256 :no_check
 
-  url "https://github.com/paberr/nimiq-moneymoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Nimiq.lua'
   name 'MoneyMoney Extension: Nimiq'
-  description 'Bestandsabfrage für Nimiq, entwickelt von Pascal Berrang.'
-  homepage "https://github.com/paberr/nimiq-moneymoney"
+  homepage "https://github.com/paberr/nimiq-moneymoney/blob/master/README.md"
 
-  artifact "nimiq-moneymoney-master/Nimiq.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Nimiq.lua"
+  artifact "Nimiq.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Nimiq.lua"
 end

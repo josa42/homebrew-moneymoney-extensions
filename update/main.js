@@ -5,6 +5,7 @@ const requestXray = require('request-x-ray')
 const fs = require('fs').promises
 const path = require('path')
 
+const casksDir = path.join(__dirname, '..', 'Casks')
 const extensionsDir = "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions"
 const keys = {
   'aaronk6/ERC20-MoneyMoney': 'ethereum-er20-aaronk6',
@@ -25,17 +26,14 @@ x.driver(driver)
 
 const cask = (ext) => `
 cask 'moneymoney-${ext.key}' do
-  version :latest
+  version '${ext.version}'
   sha256 :no_check
 
-  url "https://github.com/${ext.owner}/${ext.repo}/archive/master.zip"
+  url '${ext.fileURL}'
   name 'MoneyMoney Extension: ${ext.name}'
-  description '${ext.description}'
-  homepage "https://github.com/${ext.owner}/${ext.repo}"
+  homepage "${ext.docsURL}"
 
-  ${ext.files.map(f =>
-  `artifact "${ext.repo}-master/${f}", target: "${extensionsDir}/${path.basename(f)}"`
-).join("\n  ")}
+  artifact "${decodeURIComponent(path.basename(ext.fileURL))}", target: "${extensionsDir}/${decodeURIComponent(path.basename(ext.fileURL))}"
 end
 `
 
@@ -67,47 +65,28 @@ const luaFiles = async (owner, repo, dir) => {
 const getKey = (owner, repo, name) => keys[`${owner}/${repo}`] || name.replace(/[ .]/g, '-').toLowerCase().replace(/-österreich$/, '-at')
 
 const getExtensions = async () => {
+  console.log('getExtensions')
   const items = await all('https://moneymoney-app.com/extensions/', 'tr', [{
     name: 'td b',
     description: 'td',
-    docs: 'a.btn@href'
+    docsURL: 'a.btn@href',
+    version: 'a.btn[title]@title',
+    fileURL: 'a.btn[title]@href',
   }])
 
   return await Promise.all(items
-    .filter(ext => ext.name && ext.docs && ext.docs.match(/github\.com.*README.md$/))
+    .filter(ext => ext.fileURL && ext.docsURL)
     .map(async (ext) => {
-      const owner = ext.docs.replace(/^.*github.com\/([^/]+)\/.*$/, '$1')
-      const repo = ext.docs.replace(/^.*github.com\/[^/]+\/([^/]+)\/.*$/, '$1')
-      const url = `https://github.com/${owner}/${repo}/`
-
-      console.log(`${ext.name}`)
-      console.log(`=> ${owner}/${repo}`)
-
-      let files = await all(url, x('tr', ['a']))
-
-      if (files.some(f => f.trim() === 'dist')) {
-        files = await luaFiles(owner, repo, 'dist')
-      }
-
-      if (!files.some(isLua) && files.some(f => f.trim() === 'src')) {
-        files = await luaFiles(owner, repo, 'src')
-      }
-
-      files = files.filter(isLua)
-
-      if (files.length == 0) {
-        console.log(url)
-        console.log('error: no file')
-      }
+      const owner = ext.docsURL.replace(/^.*github.com\/([^/]+)\/.*$/, '$1').replace(/[:/?]/g, '__')
+      const repo = ext.docsURL.replace(/^.*github.com\/[^/]+\/([^/]+)\/.*$/, '$1').replace(/[:/?]/g, '__')
 
       return {
         name: ext.name,
+        version: ext.version.replace(/^Version /, ''),
+        docsURL: ext.docsURL,
+        fileURL: ext.fileURL,
         key: getKey(owner, repo, ext.name),
         description: ext.description.replace(/^• /, ''),
-        owner,
-        repo,
-        files,
-        url,
       }
     }))
 
@@ -131,10 +110,12 @@ const main = async () => {
     await fs.writeFile(path.join(__dirname, '..', 'extensions.json'), JSON.stringify(extensions, '', '  '))
   }
 
+  // console.log('=> delete all', await fs.readdir(casksDir))
+  await Promise.all((await fs.readdir(casksDir)).map(f => fs.unlink(path.join(casksDir, f))))
 
-
+  // console.log('=> write')
   await Promise.all(extensions.map(ext =>
-    fs.writeFile(path.join(__dirname, '..', 'Casks', `moneymoney-${ext.key}.rb`), cask(ext))
+    fs.writeFile(path.join(casksDir, `moneymoney-${ext.key}.rb`), cask(ext))
   ))
 
   let inside = false
@@ -152,7 +133,7 @@ const main = async () => {
 
       } else if (line == '## MoneyMoney Extensions') {
         inside = true
-        lines = [...lines, line, '', ...extensions.map(e => `- **\`moneymoney-${e.key}\`**  \n  ${e.description} [[repo](${e.url})]`), '']
+        lines = [...lines, line, '', ...extensions.map(e => `- **\`moneymoney-${e.key}\` (\`${e.version}\`)**  \n  ${e.description} [[repo](${e.url})]`), '']
       } else {
         lines = [...lines, line]
       }

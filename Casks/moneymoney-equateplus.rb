@@ -1,12 +1,11 @@
 
 cask 'moneymoney-equateplus' do
-  version :latest
+  version '1.15'
   sha256 :no_check
 
-  url "https://github.com/Michael-Beutling/equateplus-moneymoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/EquatePlus.lua'
   name 'MoneyMoney Extension: EquatePlus'
-  description 'Wertpapierabfrage für EquatePlus, entwickelt von Michael Beutling.'
-  homepage "https://github.com/Michael-Beutling/equateplus-moneymoney"
+  homepage "https://github.com/Michael-Beutling/equateplus-moneymoney/blob/master/README.md"
 
-  artifact "equateplus-moneymoney-master/EquatePlus.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/EquatePlus.lua"
+  artifact "EquatePlus.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/EquatePlus.lua"
 end

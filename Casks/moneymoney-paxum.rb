@@ -1,12 +1,11 @@
 
 cask 'moneymoney-paxum' do
-  version :latest
+  version '2.00'
   sha256 :no_check
 
-  url "https://github.com/iam-pac-man/moneymoney-paxum/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Paxum.lua'
   name 'MoneyMoney Extension: Paxum'
-  description 'Kontostand- und Umsatzabfrage für Paxum, entwickelt von Philip Günther.'
-  homepage "https://github.com/iam-pac-man/moneymoney-paxum"
+  homepage "https://github.com/iam-pac-man/moneymoney-paxum/blob/master/README.md"
 
-  artifact "moneymoney-paxum-master/dist/Paxum.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Paxum.lua"
+  artifact "Paxum.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Paxum.lua"
 end

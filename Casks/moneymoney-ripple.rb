@@ -1,12 +1,11 @@
 
 cask 'moneymoney-ripple' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/aaronk6/Ripple-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Ripple.lua'
   name 'MoneyMoney Extension: Ripple'
-  description 'Bestandsabfrage für Ripple, entwickelt von Aaron Könsgen.'
-  homepage "https://github.com/aaronk6/Ripple-MoneyMoney"
+  homepage "https://github.com/aaronk6/Ripple-MoneyMoney/blob/master/README.md"
 
-  artifact "Ripple-MoneyMoney-master/Ripple.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ripple.lua"
+  artifact "Ripple.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ripple.lua"
 end

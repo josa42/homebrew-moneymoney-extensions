@@ -1,12 +1,11 @@
 
 cask 'moneymoney-bitstamp' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/beanieboi/moneymoney-bitstamp/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/bitstamp.lua'
   name 'MoneyMoney Extension: Bitstamp'
-  description 'Bestandsabfrage für Bitstamp, entwickelt von Benjamin Fritsch.'
-  homepage "https://github.com/beanieboi/moneymoney-bitstamp"
+  homepage "https://github.com/beanieboi/moneymoney-bitstamp/blob/master/README.md"
 
-  artifact "moneymoney-bitstamp-master/bitstamp.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/bitstamp.lua"
+  artifact "bitstamp.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/bitstamp.lua"
 end

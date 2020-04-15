@@ -1,12 +1,11 @@
 
 cask 'moneymoney-hitbtc' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/gradlman/moneymoney-hitbtc/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/hitbtc.lua'
   name 'MoneyMoney Extension: HitBTC'
-  description 'Bestandsabfrage für HitBTC, entwickelt von Stefan Gradl.'
-  homepage "https://github.com/gradlman/moneymoney-hitbtc"
+  homepage "https://github.com/gradlman/moneymoney-hitbtc/blob/master/README.md"
 
-  artifact "moneymoney-hitbtc-master/dist/hitbtc.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/hitbtc.lua"
+  artifact "hitbtc.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/hitbtc.lua"
 end

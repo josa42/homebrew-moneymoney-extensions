@@ -1,12 +1,11 @@
 
 cask 'moneymoney-bitcoin-cash' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Bitcoin%20Cash.lua'
   name 'MoneyMoney Extension: Bitcoin Cash'
-  description 'Bestandsabfrage für Bitcoin Cash, entwickelt von Aaron Könsgen.'
-  homepage "https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney"
+  homepage "https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney/blob/master/README.md"
 
-  artifact "Bitcoin-Cash-MoneyMoney-master/Bitcoin Cash.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Bitcoin Cash.lua"
+  artifact "Bitcoin Cash.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Bitcoin Cash.lua"
 end

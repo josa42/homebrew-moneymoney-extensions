@@ -1,12 +1,11 @@
 
 cask 'moneymoney-cardano' do
-  version :latest
+  version '1.01'
   sha256 :no_check
 
-  url "https://github.com/aaronk6/Cardano-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Cardano.lua'
   name 'MoneyMoney Extension: Cardano'
-  description 'Bestandsabfrage für Cardano, entwickelt von Aaron Könsgen.'
-  homepage "https://github.com/aaronk6/Cardano-MoneyMoney"
+  homepage "https://github.com/aaronk6/Cardano-MoneyMoney/blob/master/README.md"
 
-  artifact "Cardano-MoneyMoney-master/Cardano.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Cardano.lua"
+  artifact "Cardano.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Cardano.lua"
 end

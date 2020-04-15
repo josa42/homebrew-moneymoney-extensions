@@ -1,12 +1,11 @@
 
 cask 'moneymoney-ethereum-er20-crietzschel' do
-  version :latest
+  version '0.20'
   sha256 :no_check
 
-  url "https://github.com/crietzschel/moneymoney-ethereum-tokens/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Ether-Erc20-Tokens.lua'
   name 'MoneyMoney Extension: Ethereum mit Erc20-Tokens'
-  description 'Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Carsten Rietzschel.'
-  homepage "https://github.com/crietzschel/moneymoney-ethereum-tokens"
+  homepage "https://github.com/crietzschel/moneymoney-ethereum-tokens/blob/master/README.md"
 
-  artifact "moneymoney-ethereum-tokens-master/dist/Ether-Erc20-Tokens.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ether-Erc20-Tokens.lua"
+  artifact "Ether-Erc20-Tokens.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ether-Erc20-Tokens.lua"
 end

@@ -1,12 +1,11 @@
 
 cask 'moneymoney-oberbank-at' do
-  version :latest
+  version '0.20'
   sha256 :no_check
 
-  url "https://github.com/kolomanschaft/mm-oberbank/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Oberbank.lua'
   name 'MoneyMoney Extension: Oberbank Österreich'
-  description 'Kontostand- und Umsatzabfrage für die Oberbank Österreich, entwickelt von Martin Hammerschmied.'
-  homepage "https://github.com/kolomanschaft/mm-oberbank"
+  homepage "https://github.com/kolomanschaft/mm-oberbank/blob/master/README.md"
 
-  artifact "mm-oberbank-master/Oberbank.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Oberbank.lua"
+  artifact "Oberbank.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Oberbank.lua"
 end

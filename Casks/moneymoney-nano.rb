@@ -1,12 +1,11 @@
 
 cask 'moneymoney-nano' do
-  version :latest
+  version '1.02'
   sha256 :no_check
 
-  url "https://github.com/aaronk6/Nano-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Nano.lua'
   name 'MoneyMoney Extension: Nano'
-  description 'Bestandsabfrage für Nano, entwickelt von Aaron Könsgen.'
-  homepage "https://github.com/aaronk6/Nano-MoneyMoney"
+  homepage "https://github.com/aaronk6/Nano-MoneyMoney/blob/master/README.md"
 
-  artifact "Nano-MoneyMoney-master/Nano.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Nano.lua"
+  artifact "Nano.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Nano.lua"
 end

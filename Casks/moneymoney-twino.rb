@@ -1,12 +1,11 @@
 
 cask 'moneymoney-twino' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/beanieboi/moneymoney-twino/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/twino.lua'
   name 'MoneyMoney Extension: Twino'
-  description 'Bestandsabfrage für Twino, entwickelt von Benjamin Fritsch.'
-  homepage "https://github.com/beanieboi/moneymoney-twino"
+  homepage "https://github.com/beanieboi/moneymoney-twino/blob/master/README.md"
 
-  artifact "moneymoney-twino-master/twino.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/twino.lua"
+  artifact "twino.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/twino.lua"
 end

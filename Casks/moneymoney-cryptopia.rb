@@ -1,12 +1,11 @@
 
 cask 'moneymoney-cryptopia' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/crietzschel/moneymoney-cryptopia/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Cryptopia.lua'
   name 'MoneyMoney Extension: Cryptopia'
-  description 'Bestandsabfrage für Cryptopia, entwickelt von Carsten Rietzschel.'
-  homepage "https://github.com/crietzschel/moneymoney-cryptopia"
+  homepage "https://github.com/crietzschel/moneymoney-cryptopia/blob/master/README.md"
 
-  artifact "moneymoney-cryptopia-master/dist/Cryptopia.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Cryptopia.lua"
+  artifact "Cryptopia.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Cryptopia.lua"
 end

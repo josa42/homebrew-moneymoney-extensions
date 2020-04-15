@@ -1,12 +1,11 @@
 
 cask 'moneymoney-litecoin' do
-  version :latest
+  version '0.20'
   sha256 :no_check
 
-  url "https://github.com/zafai/Litecoin-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Litecoin.lua'
   name 'MoneyMoney Extension: Litecoin'
-  description 'Bestandsabfrage für Litecoin, entwickelt von Jeffrey Hochwart.'
-  homepage "https://github.com/zafai/Litecoin-MoneyMoney"
+  homepage "https://github.com/zafai/Litecoin-MoneyMoney/blob/master/README.md"
 
-  artifact "Litecoin-MoneyMoney-master/Litecoin.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Litecoin.lua"
+  artifact "Litecoin.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Litecoin.lua"
 end

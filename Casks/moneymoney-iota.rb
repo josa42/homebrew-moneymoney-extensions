@@ -1,12 +1,11 @@
 
 cask 'moneymoney-iota' do
-  version :latest
+  version '0.30'
   sha256 :no_check
 
-  url "https://github.com/psperber/IOTA-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/IOTA.lua'
   name 'MoneyMoney Extension: IOTA'
-  description 'Bestandsabfrage für IOTA, entwickelt von Philipp Sperber.'
-  homepage "https://github.com/psperber/IOTA-MoneyMoney"
+  homepage "https://github.com/psperber/IOTA-MoneyMoney/blob/master/README.md"
 
-  artifact "IOTA-MoneyMoney-master/IOTA.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/IOTA.lua"
+  artifact "IOTA.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/IOTA.lua"
 end

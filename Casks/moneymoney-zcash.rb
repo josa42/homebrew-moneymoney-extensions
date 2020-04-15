@@ -1,12 +1,11 @@
 
 cask 'moneymoney-zcash' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/crietzschel/moneymoney-zcash/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Zcash.lua'
   name 'MoneyMoney Extension: Zcash'
-  description 'Bestandsabfrage für Zcash, entwickelt von Carsten Rietzschel.'
-  homepage "https://github.com/crietzschel/moneymoney-zcash"
+  homepage "https://github.com/crietzschel/moneymoney-zcash/blob/master/README.md"
 
-  artifact "moneymoney-zcash-master/dist/Zcash.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Zcash.lua"
+  artifact "Zcash.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Zcash.lua"
 end

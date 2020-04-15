@@ -1,12 +1,11 @@
 
 cask 'moneymoney-stellar' do
-  version :latest
+  version '0.10'
   sha256 :no_check
 
-  url "https://github.com/heseifert/Stellar-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Stellar.lua'
   name 'MoneyMoney Extension: Stellar'
-  description 'Bestandsabfrage für Stellar, entwickelt von Heinrich Seifert.'
-  homepage "https://github.com/heseifert/Stellar-MoneyMoney"
+  homepage "https://github.com/heseifert/Stellar-MoneyMoney/blob/master/README.md"
 
-  artifact "Stellar-MoneyMoney-master/Stellar.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Stellar.lua"
+  artifact "Stellar.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Stellar.lua"
 end

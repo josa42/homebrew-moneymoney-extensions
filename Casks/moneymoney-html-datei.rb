@@ -1,12 +1,13 @@
 
 cask 'moneymoney-html-datei' do
-  version :latest
+  version '1.02'
   sha256 :no_check
 
-  url "https://github.com/SwankyCrones/MoneyMoney-Extensions/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/HTML%20Export.lua'
   name 'MoneyMoney Extension: HTML-Datei'
-  description 'Export von Umsätzen als HTML-Datei, entwickelt von Joern Thiemann.'
-  homepage "https://github.com/SwankyCrones/MoneyMoney-Extensions"
+  homepage "https://gist.github.com/0bp/8445592#gistcomment-987501"
 
-  artifact "MoneyMoney-Extensions-master/BarCharts.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/BarCharts.lua"
+  artifact "HTML Export.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/HTML Export.lua"
+end
+ons/MoneyMoney-Extensions"
 end

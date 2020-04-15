@@ -1,12 +1,11 @@
 
 cask 'moneymoney-fairr-de' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/Struppie/MoneyMoney---Extensions/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/fairrByRaisin.lua'
   name 'MoneyMoney Extension: fairr.de'
-  description 'Wertpapierabfrage für fairr.de, entwickelt von Stefan Ditscheid.'
-  homepage "https://github.com/Struppie/MoneyMoney---Extensions"
+  homepage "https://github.com/Struppie/MoneyMoney---Extensions/blob/master/README.md"
 
-  artifact "MoneyMoney---Extensions-master/fairrByRaisin.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/fairrByRaisin.lua"
+  artifact "fairrByRaisin.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/fairrByRaisin.lua"
 end

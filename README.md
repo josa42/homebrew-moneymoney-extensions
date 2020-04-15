@@ -9,118 +9,126 @@ brew install moneymoney-bitcoin
 
 ## MoneyMoney Extensions
 
-- **`moneymoney-auxmoney`**  
-  Bestandsabfrage für auxmoney, entwickelt von Robert Gering. [[repo](https://github.com/gering/MoneyMoney-auxmoney-Extension/)]
-- **`moneymoney-binance`**  
-  Bestandsabfrage für Binance, entwickelt von Johannes Heck. [[repo](https://github.com/yoyostile/moneymoney-binance/)]
-- **`moneymoney-bitcoin`**  
-  Bestandsabfrage für Bitcoin, entwickelt von Udo Bretz. [[repo](https://github.com/UdoBretz/Bitcoin-MoneyMoney/)]
-- **`moneymoney-bitcoin-cash`**  
-  Bestandsabfrage für Bitcoin Cash, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney/)]
-- **`moneymoney-bitcoin-de`**  
-  Bestandsabfrage für Bitcoin.de, entwickelt von Robert Gering. [[repo](https://github.com/gering/MoneyMoney-Bitcoin.de-Extension/)]
-- **`moneymoney-bitfinex`**  
-  Bestandsabfrage für Bitfinex, entwickelt von Benjamin Fritsch. [[repo](https://github.com/beanieboi/moneymoney-bitfinex/)]
-- **`moneymoney-bitstamp`**  
-  Bestandsabfrage für Bitstamp, entwickelt von Benjamin Fritsch. [[repo](https://github.com/beanieboi/moneymoney-bitstamp/)]
-- **`moneymoney-bittrex`**  
-  Bestandsabfrage für Bittrex, entwickelt von Jonathan Schubert. [[repo](https://github.com/JonathanSchubert/moneymoney-bittrex/)]
-- **`moneymoney-bondora`**  
-  Bestandsabfrage für Bondora, entwickelt von Martin Dinh. [[repo](https://github.com/EmDee/moneymoney-bondora/)]
-- **`moneymoney-cardano`**  
-  Bestandsabfrage für Cardano, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/Cardano-MoneyMoney/)]
-- **`moneymoney-coinbase`**  
-  Bestandsabfrage für Coinbase, entwickelt von Nico Lindemann. [[repo](https://github.com/nicolindemann/coinbase-moneymoney/)]
-- **`moneymoney-coinbase-pro`**  
-  Bestandsabfrage für Coinbase Pro, entwickelt von Leo Schweizer. [[repo](https://github.com/leoschweizer/moneymoney-coinbase-pro/)]
-- **`moneymoney-cryptopia`**  
-  Bestandsabfrage für Cryptopia, entwickelt von Carsten Rietzschel. [[repo](https://github.com/crietzschel/moneymoney-cryptopia/)]
-- **`moneymoney-dash`**  
-  Bestandsabfrage für Dash, entwickelt von Heinrich Seifert. [[repo](https://github.com/heseifert/Dash-MoneyMoney/)]
-- **`moneymoney-eos`**  
-  Bestandsabfrage für EOS, entwickelt von Jason Scurtu. [[repo](https://github.com/jscurtu/moneymoney-extension-eos/)]
-- **`moneymoney-estateguru`**  
-  Bestandsabfrage für EstateGuru, entwickelt von Benjamin Fritsch. [[repo](https://github.com/beanieboi/moneymoney-estateguru/)]
-- **`moneymoney-ethereum`**  
-  Bestandsabfrage für Ethereum, entwickelt von Dr. Johannes Jacubeit. [[repo](https://github.com/Jacubeit/Ethereum-MoneyMoney/)]
-- **`moneymoney-ethereum-er20-aaronk6`**  
-  Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/ERC20-MoneyMoney/)]
-- **`moneymoney-ethereum-er20-crietzschel`**  
-  Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Carsten Rietzschel. [[repo](https://github.com/crietzschel/moneymoney-ethereum-tokens/)]
-- **`moneymoney-hitbtc`**  
-  Bestandsabfrage für HitBTC, entwickelt von Stefan Gradl. [[repo](https://github.com/gradlman/moneymoney-hitbtc/)]
-- **`moneymoney-iota`**  
-  Bestandsabfrage für IOTA, entwickelt von Philipp Sperber. [[repo](https://github.com/psperber/IOTA-MoneyMoney/)]
-- **`moneymoney-kraken`**  
-  Bestandsabfrage für Kraken, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/Kraken-MoneyMoney/)]
-- **`moneymoney-litecoin`**  
-  Bestandsabfrage für Litecoin, entwickelt von Jeffrey Hochwart. [[repo](https://github.com/zafai/Litecoin-MoneyMoney/)]
-- **`moneymoney-nano`**  
-  Bestandsabfrage für Nano, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/Nano-MoneyMoney/)]
-- **`moneymoney-neo`**  
-  Bestandsabfrage für NEO, entwickelt von Dr. Johannes Jacubeit. [[repo](https://github.com/Jacubeit/NEO-MoneyMoney/)]
-- **`moneymoney-nimiq`**  
-  Bestandsabfrage für Nimiq, entwickelt von Pascal Berrang. [[repo](https://github.com/paberr/nimiq-moneymoney/)]
-- **`moneymoney-oikocredit`**  
-  Bestandsabfrage für Oikocredit, entwickelt von Adrian Philipp. [[repo](https://github.com/adri/moneymoney-oikocredit-nl/)]
-- **`moneymoney-ripple`**  
-  Bestandsabfrage für Ripple, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/Ripple-MoneyMoney/)]
-- **`moneymoney-stellar`**  
-  Bestandsabfrage für Stellar, entwickelt von Heinrich Seifert. [[repo](https://github.com/heseifert/Stellar-MoneyMoney/)]
-- **`moneymoney-storj`**  
-  Bestandsabfrage für Storj, entwickelt von Silsha Fux. [[repo](https://github.com/silsha/STORJ-MoneyMoney/)]
-- **`moneymoney-tron`**  
-  Bestandsabfrage für TRON, entwickelt von Aaron Könsgen. [[repo](https://github.com/aaronk6/TRON-MoneyMoney/)]
-- **`moneymoney-twino`**  
-  Bestandsabfrage für Twino, entwickelt von Benjamin Fritsch. [[repo](https://github.com/beanieboi/moneymoney-twino/)]
-- **`moneymoney-zcash`**  
-  Bestandsabfrage für Zcash, entwickelt von Carsten Rietzschel. [[repo](https://github.com/crietzschel/moneymoney-zcash/)]
-- **`moneymoney-addiko-bank`**  
-  Kontostand- und Umsatzabfrage für die Addiko Bank, entwickelt von Ulrich Lehner. [[repo](https://github.com/ulrichson/moneymoney-addiko-at/)]
-- **`moneymoney-amazon`**  
-  Kontostand- und Umsatzabfrage für Amazon, entwickelt von Michael Beutling. [[repo](https://github.com/Michael-Beutling/Amazon-MoneyMoney/)]
-- **`moneymoney-appfigures`**  
-  Kontostand- und Umsatzabfrage für Appfigures, entwickelt von Frank Rausch. [[repo](https://github.com/frankrausch/MoneyMoney-Appfigures-Extension/)]
-- **`moneymoney-bawag-psk`**  
-  Kontostand- und Umsatzabfrage für die BAWAG PSK, entwickelt von frittex. [[repo](https://github.com/frittex/moneymoney-bawagpsk/)]
-- **`moneymoney-easybank`**  
-  Kontostand- und Umsatzabfrage für die easybank, entwickelt von Martin Hammerschmied. [[repo](https://github.com/kolomanschaft/mm-easybank/)]
-- **`moneymoney-lloyds-bank-uk`**  
-  Kontostand- und Umsatzabfrage für die Lloyds Bank UK, entwickelt von Gerard Delmàs. [[repo](https://github.com/gdelmas/LloydsBank-MoneyMoney/)]
-- **`moneymoney-moneyou-at`**  
-  Kontostand- und Umsatzabfrage für Moneyou Österreich, entwickelt von Ulrich Lehner. [[repo](https://github.com/ulrichson/moneymoney-moneyou-at/)]
-- **`moneymoney-monzo`**  
-  Kontostand- und Umsatzabfrage für Monzo, entwickelt von Stephan Diederich. [[repo](https://github.com/diederich/moneymoney-monzo/)]
-- **`moneymoney-oberbank-at`**  
-  Kontostand- und Umsatzabfrage für die Oberbank Österreich, entwickelt von Martin Hammerschmied. [[repo](https://github.com/kolomanschaft/mm-oberbank/)]
-- **`moneymoney-paxum`**  
-  Kontostand- und Umsatzabfrage für Paxum, entwickelt von Philip Günther. [[repo](https://github.com/iam-pac-man/moneymoney-paxum/)]
-- **`moneymoney-paylife`**  
-  Kontostand- und Umsatzabfrage für die PayLife MasterCard RED, entwickelt von Lukas Köll. [[repo](https://github.com/phpwutz/moneymoney-mastercardred-ext/)]
-- **`moneymoney-permanent-tsb-business`**  
-  Kontostand- und Umsatzabfrage für Permanent TSB Business, entwickelt von Jan Münnich. [[repo](https://github.com/janmuennich/MoneyMoney-Permanent-TSB-Business/)]
-- **`moneymoney-shoop`**  
-  Kontostand- und Umsatzabfrage für Shoop, entwickelt von Gregor Harlan. [[repo](https://github.com/gharlan/moneymoney-shoop/)]
-- **`moneymoney-stripe`**  
-  Kontostand- und Umsatzabfrage für Stripe, entwickelt von Nico Lindemann. [[repo](https://github.com/nicolindemann/stripe-moneymoney/)]
-- **`moneymoney-truelayer`**  
-  Kontostand- und Umsatzabfrage für TrueLayer, entwickelt von Michael Elsdörfer. [[repo](https://github.com/miracle2k/moneymoney-truelayer/)]
-- **`moneymoney-bergfürst`**  
-  Wertpapierabfrage für Bergfürst, entwickelt von Nico Lindemann. [[repo](https://github.com/nicolindemann/bergfuerst-moneymoney/)]
-- **`moneymoney-equateplus`**  
-  Wertpapierabfrage für EquatePlus, entwickelt von Michael Beutling. [[repo](https://github.com/Michael-Beutling/equateplus-moneymoney/)]
-- **`moneymoney-fairr-de`**  
-  Wertpapierabfrage für fairr.de, entwickelt von Stefan Ditscheid. [[repo](https://github.com/Struppie/MoneyMoney---Extensions/)]
-- **`moneymoney-fidelity-netbenefits`**  
-  Wertpapierabfrage für Fidelity NetBenefits, entwickelt von Lukas Spieß. [[repo](https://github.com/lumaxis/fidelity-netbenefits/)]
-- **`moneymoney-planetshares-bnp-paribas`**  
-  Wertpapierabfrage für Planetshares BNP Paribas, entwickelt von Daniel Hähnel. [[repo](https://github.com/danhae/MoneyMoney-Planetshares-BNP-Paribas/)]
-- **`moneymoney-whitebox`**  
-  Wertpapierabfrage für Whitebox, entwickelt von Mirko Weinschenk. [[repo](https://github.com/mirkowein/moneymoney-whitebox/)]
-- **`moneymoney-html-datei`**  
-  Export von Umsätzen als HTML-Datei, entwickelt von Joern Thiemann. [[repo](https://github.com/SwankyCrones/MoneyMoney-Extensions/)]
-- **`moneymoney-kategorie-summen`**  
-  Export von Umsätzen in Form von Kategorie-Summen, entwickelt von Phillip Oertel. [[repo](https://github.com/phillipoertel/moneymoney-extensions/)]
+- **`moneymoney-auxmoney` (`1.00`)**  
+  Bestandsabfrage für auxmoney, entwickelt von Robert Gering. [[repo](undefined)]
+- **`moneymoney-binance` (`1.20`)**  
+  Bestandsabfrage für Binance, entwickelt von Johannes Heck. [[repo](undefined)]
+- **`moneymoney-bitcoin` (`0.30`)**  
+  Bestandsabfrage für Bitcoin, entwickelt von Udo Bretz. [[repo](undefined)]
+- **`moneymoney-bitcoin-cash` (`1.00`)**  
+  Bestandsabfrage für Bitcoin Cash, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-bitcoin-hd` (`0.10`)**  
+  Bestandsabfrage für Bitcoin HD, entwickelt von Kevin Seibel. [[repo](undefined)]
+- **`moneymoney-bitcoin-de` (`1.10`)**  
+  Bestandsabfrage für Bitcoin.de, entwickelt von Robert Gering. [[repo](undefined)]
+- **`moneymoney-bitfinex` (`1.10`)**  
+  Bestandsabfrage für Bitfinex, entwickelt von Benjamin Fritsch. [[repo](undefined)]
+- **`moneymoney-bitstamp` (`1.00`)**  
+  Bestandsabfrage für Bitstamp, entwickelt von Benjamin Fritsch. [[repo](undefined)]
+- **`moneymoney-bittrex` (`1.20`)**  
+  Bestandsabfrage für Bittrex, entwickelt von Jonathan Schubert. [[repo](undefined)]
+- **`moneymoney-bondora` (`1.10`)**  
+  Bestandsabfrage für Bondora, entwickelt von Martin Dinh. [[repo](undefined)]
+- **`moneymoney-burstcoin` (`0.10`)**  
+  Bestandsabfrage für Burstcoin, entwickelt von Jorn Lemon. [[repo](undefined)]
+- **`moneymoney-cardano` (`1.01`)**  
+  Bestandsabfrage für Cardano, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-coinbase` (`1.00`)**  
+  Bestandsabfrage für Coinbase, entwickelt von Nico Lindemann. [[repo](undefined)]
+- **`moneymoney-coinbase-pro` (`1.10`)**  
+  Bestandsabfrage für Coinbase Pro, entwickelt von Leo Schweizer. [[repo](undefined)]
+- **`moneymoney-cryptopia` (`1.00`)**  
+  Bestandsabfrage für Cryptopia, entwickelt von Carsten Rietzschel. [[repo](undefined)]
+- **`moneymoney-dash` (`0.20`)**  
+  Bestandsabfrage für Dash, entwickelt von Heinrich Seifert. [[repo](undefined)]
+- **`moneymoney-eos` (`0.10`)**  
+  Bestandsabfrage für EOS, entwickelt von Jason Scurtu. [[repo](undefined)]
+- **`moneymoney-estateguru` (`1.00`)**  
+  Bestandsabfrage für EstateGuru, entwickelt von Benjamin Fritsch. [[repo](undefined)]
+- **`moneymoney-ethereum` (`0.10`)**  
+  Bestandsabfrage für Ethereum, entwickelt von Dr. Johannes Jacubeit. [[repo](undefined)]
+- **`moneymoney-ethereum-er20-aaronk6` (`1.04`)**  
+  Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-ethereum-er20-crietzschel` (`0.20`)**  
+  Bestandsabfrage für Ethereum mit Erc20-Tokens, entwickelt von Carsten Rietzschel. [[repo](undefined)]
+- **`moneymoney-hitbtc` (`1.00`)**  
+  Bestandsabfrage für HitBTC, entwickelt von Stefan Gradl. [[repo](undefined)]
+- **`moneymoney-iota` (`0.30`)**  
+  Bestandsabfrage für IOTA, entwickelt von Philipp Sperber. [[repo](undefined)]
+- **`moneymoney-kraken` (`1.06`)**  
+  Bestandsabfrage für Kraken, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-litecoin` (`0.20`)**  
+  Bestandsabfrage für Litecoin, entwickelt von Jeffrey Hochwart. [[repo](undefined)]
+- **`moneymoney-nano` (`1.02`)**  
+  Bestandsabfrage für Nano, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-neo` (`0.20`)**  
+  Bestandsabfrage für NEO, entwickelt von Dr. Johannes Jacubeit. [[repo](undefined)]
+- **`moneymoney-nimiq` (`1.10`)**  
+  Bestandsabfrage für Nimiq, entwickelt von Pascal Berrang. [[repo](undefined)]
+- **`moneymoney-oikocredit` (`1.00`)**  
+  Bestandsabfrage für Oikocredit, entwickelt von Adrian Philipp. [[repo](undefined)]
+- **`moneymoney-ripple` (`1.00`)**  
+  Bestandsabfrage für Ripple, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-stellar` (`0.10`)**  
+  Bestandsabfrage für Stellar, entwickelt von Heinrich Seifert. [[repo](undefined)]
+- **`moneymoney-storj` (`0.10`)**  
+  Bestandsabfrage für Storj, entwickelt von Silsha Fux. [[repo](undefined)]
+- **`moneymoney-tron` (`1.02`)**  
+  Bestandsabfrage für TRON, entwickelt von Aaron Könsgen. [[repo](undefined)]
+- **`moneymoney-twino` (`1.00`)**  
+  Bestandsabfrage für Twino, entwickelt von Benjamin Fritsch. [[repo](undefined)]
+- **`moneymoney-zcash` (`1.00`)**  
+  Bestandsabfrage für Zcash, entwickelt von Carsten Rietzschel. [[repo](undefined)]
+- **`moneymoney-addiko-bank` (`1.00`)**  
+  Kontostand- und Umsatzabfrage für die Addiko Bank, entwickelt von Ulrich Lehner. [[repo](undefined)]
+- **`moneymoney-amazon` (`1.04`)**  
+  Kontostand- und Umsatzabfrage für Amazon, entwickelt von Michael Beutling. [[repo](undefined)]
+- **`moneymoney-appfigures` (`1.00`)**  
+  Kontostand- und Umsatzabfrage für Appfigures, entwickelt von Frank Rausch. [[repo](undefined)]
+- **`moneymoney-bawag-psk` (`1.00`)**  
+  Kontostand- und Umsatzabfrage für die BAWAG PSK, entwickelt von frittex. [[repo](undefined)]
+- **`moneymoney-easybank` (`0.10`)**  
+  Kontostand- und Umsatzabfrage für die easybank, entwickelt von Martin Hammerschmied. [[repo](undefined)]
+- **`moneymoney-lloyds-bank-uk` (`1.03`)**  
+  Kontostand- und Umsatzabfrage für die Lloyds Bank UK, entwickelt von Gerard Delmàs. [[repo](undefined)]
+- **`moneymoney-moneyou-at` (`1.10`)**  
+  Kontostand- und Umsatzabfrage für Moneyou Österreich, entwickelt von Ulrich Lehner. [[repo](undefined)]
+- **`moneymoney-monzo` (`0.91`)**  
+  Kontostand- und Umsatzabfrage für Monzo, entwickelt von Stephan Diederich. [[repo](undefined)]
+- **`moneymoney-oberbank-at` (`0.20`)**  
+  Kontostand- und Umsatzabfrage für die Oberbank Österreich, entwickelt von Martin Hammerschmied. [[repo](undefined)]
+- **`moneymoney-paxum` (`2.00`)**  
+  Kontostand- und Umsatzabfrage für Paxum, entwickelt von Philip Günther. [[repo](undefined)]
+- **`moneymoney-paylife` (`1.00`)**  
+  Kontostand- und Umsatzabfrage für die PayLife MasterCard RED, entwickelt von Lukas Köll. [[repo](undefined)]
+- **`moneymoney-permanent-tsb-business` (`1.01`)**  
+  Kontostand- und Umsatzabfrage für Permanent TSB Business, entwickelt von Jan Münnich. [[repo](undefined)]
+- **`moneymoney-shoop` (`1.03`)**  
+  Kontostand- und Umsatzabfrage für Shoop, entwickelt von Gregor Harlan. [[repo](undefined)]
+- **`moneymoney-stripe` (`1.00`)**  
+  Kontostand- und Umsatzabfrage für Stripe, entwickelt von Nico Lindemann. [[repo](undefined)]
+- **`moneymoney-truelayer` (`0.10`)**  
+  Kontostand- und Umsatzabfrage für TrueLayer, entwickelt von Michael Elsdörfer. [[repo](undefined)]
+- **`moneymoney-uberspace-de` (`1.02`)**  
+  Kontostand- und Umsatzabfrage für Uberspace.de, entwickelt von Martin Puppe. [[repo](undefined)]
+- **`moneymoney-bergfürst` (`1.00`)**  
+  Wertpapierabfrage für Bergfürst, entwickelt von Nico Lindemann. [[repo](undefined)]
+- **`moneymoney-equateplus` (`1.15`)**  
+  Wertpapierabfrage für EquatePlus, entwickelt von Michael Beutling. [[repo](undefined)]
+- **`moneymoney-fairr-de` (`1.00`)**  
+  Wertpapierabfrage für fairr.de, entwickelt von Stefan Ditscheid. [[repo](undefined)]
+- **`moneymoney-fidelity-netbenefits` (`0.03`)**  
+  Wertpapierabfrage für Fidelity NetBenefits, entwickelt von Lukas Spieß. [[repo](undefined)]
+- **`moneymoney-planetshares-bnp-paribas` (`0.02`)**  
+  Wertpapierabfrage für Planetshares BNP Paribas, entwickelt von Daniel Hähnel. [[repo](undefined)]
+- **`moneymoney-whitebox` (`1.06`)**  
+  Wertpapierabfrage für Whitebox, entwickelt von Mirko Weinschenk. [[repo](undefined)]
+- **`moneymoney-html-datei` (`1.02`)**  
+  Export von Umsätzen als HTML-Datei, entwickelt von Boris Penck. [[repo](undefined)]
+- **`moneymoney-html-datei` (`1.00`)**  
+  Export von Umsätzen als HTML-Datei, entwickelt von Joern Thiemann. [[repo](undefined)]
+- **`moneymoney-kategorie-summen` (`1.10`)**  
+  Export von Umsätzen in Form von Kategorie-Summen, entwickelt von Phillip Oertel. [[repo](undefined)]
 
 ## License
 

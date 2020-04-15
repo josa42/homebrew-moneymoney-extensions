@@ -1,12 +1,11 @@
 
 cask 'moneymoney-shoop' do
-  version :latest
+  version '1.03'
   sha256 :no_check
 
-  url "https://github.com/gharlan/moneymoney-shoop/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Shoop.lua'
   name 'MoneyMoney Extension: Shoop'
-  description 'Kontostand- und Umsatzabfrage für Shoop, entwickelt von Gregor Harlan.'
-  homepage "https://github.com/gharlan/moneymoney-shoop"
+  homepage "https://github.com/gharlan/moneymoney-shoop/blob/master/README.md"
 
-  artifact "moneymoney-shoop-master/Shoop.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Shoop.lua"
+  artifact "Shoop.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Shoop.lua"
 end

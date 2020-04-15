@@ -1,12 +1,11 @@
 
 cask 'moneymoney-amazon' do
-  version :latest
+  version '1.04'
   sha256 :no_check
 
-  url "https://github.com/Michael-Beutling/Amazon-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/amazon-orders.lua'
   name 'MoneyMoney Extension: Amazon'
-  description 'Kontostand- und Umsatzabfrage für Amazon, entwickelt von Michael Beutling.'
-  homepage "https://github.com/Michael-Beutling/Amazon-MoneyMoney"
+  homepage "https://github.com/Michael-Beutling/Amazon-MoneyMoney/blob/master/README.md"
 
-  artifact "Amazon-MoneyMoney-master/amazon-orders.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/amazon-orders.lua"
+  artifact "amazon-orders.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/amazon-orders.lua"
 end

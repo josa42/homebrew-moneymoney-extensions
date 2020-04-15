@@ -1,12 +1,11 @@
 
 cask 'moneymoney-bitfinex' do
-  version :latest
+  version '1.10'
   sha256 :no_check
 
-  url "https://github.com/beanieboi/moneymoney-bitfinex/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/bitfinex.lua'
   name 'MoneyMoney Extension: Bitfinex'
-  description 'Bestandsabfrage für Bitfinex, entwickelt von Benjamin Fritsch.'
-  homepage "https://github.com/beanieboi/moneymoney-bitfinex"
+  homepage "https://github.com/beanieboi/moneymoney-bitfinex/blob/master/README.md"
 
-  artifact "moneymoney-bitfinex-master/bitfinex.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/bitfinex.lua"
+  artifact "bitfinex.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/bitfinex.lua"
 end

@@ -1,12 +1,11 @@
 
 cask 'moneymoney-whitebox' do
-  version :latest
+  version '1.06'
   sha256 :no_check
 
-  url "https://github.com/mirkowein/moneymoney-whitebox/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Whitebox.lua'
   name 'MoneyMoney Extension: Whitebox'
-  description 'Wertpapierabfrage für Whitebox, entwickelt von Mirko Weinschenk.'
-  homepage "https://github.com/mirkowein/moneymoney-whitebox"
+  homepage "https://github.com/mirkowein/moneymoney-whitebox/blob/master/README.md"
 
-  artifact "moneymoney-whitebox-master/Whitebox.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Whitebox.lua"
+  artifact "Whitebox.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Whitebox.lua"
 end

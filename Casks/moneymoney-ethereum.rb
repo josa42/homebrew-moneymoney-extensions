@@ -1,13 +1,11 @@
 
 cask 'moneymoney-ethereum' do
-  version :latest
+  version '0.10'
   sha256 :no_check
 
-  url "https://github.com/Jacubeit/Ethereum-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Ether.lua'
   name 'MoneyMoney Extension: Ethereum'
-  description 'Bestandsabfrage für Ethereum, entwickelt von Dr. Johannes Jacubeit.'
-  homepage "https://github.com/Jacubeit/Ethereum-MoneyMoney"
+  homepage "https://github.com/Jacubeit/Ethereum-MoneyMoney/blob/master/README.md"
 
-  artifact "Ethereum-MoneyMoney-master/Ether Classic.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ether Classic.lua"
-  artifact "Ethereum-MoneyMoney-master/Ether.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ether.lua"
+  artifact "Ether.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Ether.lua"
 end

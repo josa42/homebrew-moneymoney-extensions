@@ -1,12 +1,11 @@
 
 cask 'moneymoney-neo' do
-  version :latest
+  version '0.20'
   sha256 :no_check
 
-  url "https://github.com/Jacubeit/NEO-MoneyMoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/NEO.lua'
   name 'MoneyMoney Extension: NEO'
-  description 'Bestandsabfrage für NEO, entwickelt von Dr. Johannes Jacubeit.'
-  homepage "https://github.com/Jacubeit/NEO-MoneyMoney"
+  homepage "https://github.com/Jacubeit/NEO-MoneyMoney/blob/master/README.md"
 
-  artifact "NEO-MoneyMoney-master/NEO.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/NEO.lua"
+  artifact "NEO.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/NEO.lua"
 end

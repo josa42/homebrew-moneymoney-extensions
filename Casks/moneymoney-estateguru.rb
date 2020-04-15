@@ -1,12 +1,11 @@
 
 cask 'moneymoney-estateguru' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/beanieboi/moneymoney-estateguru/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/estateguru.lua'
   name 'MoneyMoney Extension: EstateGuru'
-  description 'Bestandsabfrage für EstateGuru, entwickelt von Benjamin Fritsch.'
-  homepage "https://github.com/beanieboi/moneymoney-estateguru"
+  homepage "https://github.com/beanieboi/moneymoney-estateguru/blob/master/README.md"
 
-  artifact "moneymoney-estateguru-master/estateguru.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/estateguru.lua"
+  artifact "estateguru.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/estateguru.lua"
 end

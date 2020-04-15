@@ -1,12 +1,11 @@
 
 cask 'moneymoney-coinbase' do
-  version :latest
+  version '1.00'
   sha256 :no_check
 
-  url "https://github.com/nicolindemann/coinbase-moneymoney/archive/master.zip"
+  url 'https://moneymoney-app.com/extensions/Coinbase.lua'
   name 'MoneyMoney Extension: Coinbase'
-  description 'Bestandsabfrage für Coinbase, entwickelt von Nico Lindemann.'
-  homepage "https://github.com/nicolindemann/coinbase-moneymoney"
+  homepage "https://github.com/nicolindemann/coinbase-moneymoney/blob/master/README.md"
 
-  artifact "coinbase-moneymoney-master/dist/Coinbase.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Coinbase.lua"
+  artifact "Coinbase.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/Coinbase.lua"
 end
