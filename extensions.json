@@ -1,6 +1,7 @@
 [
   {
     "name": "auxmoney",
+    "owner": "gering",
     "version": "1.00",
     "docsURL": "https://github.com/gering/MoneyMoney-auxmoney-Extension/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/auxmoney.lua",
@@ -9,6 +10,7 @@
   },
   {
     "name": "Binance",
+    "owner": "yoyostile",
     "version": "1.20",
     "docsURL": "https://github.com/yoyostile/moneymoney-binance/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/binance.lua",
@@ -17,6 +19,7 @@
   },
   {
     "name": "Bitcoin",
+    "owner": "UdoBretz",
     "version": "0.30",
     "docsURL": "https://github.com/UdoBretz/Bitcoin-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Bitcoin.lua",
@@ -25,6 +28,7 @@
   },
   {
     "name": "Bitcoin Cash",
+    "owner": "aaronk6",
     "version": "1.00",
     "docsURL": "https://github.com/aaronk6/Bitcoin-Cash-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Bitcoin%20Cash.lua",
@@ -33,6 +37,7 @@
   },
   {
     "name": "Bitcoin HD",
+    "owner": "amnesia106",
     "version": "0.10",
     "docsURL": "https://github.com/amnesia106/moneymoneyBitcoinHD/blob/master/readme.md",
     "fileURL": "https://moneymoney-app.com/extensions/bitcoinHD.lua",
@@ -41,6 +46,7 @@
   },
   {
     "name": "Bitcoin.de",
+    "owner": "gering",
     "version": "1.10",
     "docsURL": "https://github.com/gering/MoneyMoney-Bitcoin.de-Extension/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/bitcoin.de.lua",
@@ -49,6 +55,7 @@
   },
   {
     "name": "Bitfinex",
+    "owner": "beanieboi",
     "version": "1.10",
     "docsURL": "https://github.com/beanieboi/moneymoney-bitfinex/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/bitfinex.lua",
@@ -57,6 +64,7 @@
   },
   {
     "name": "Bitstamp",
+    "owner": "beanieboi",
     "version": "1.00",
     "docsURL": "https://github.com/beanieboi/moneymoney-bitstamp/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/bitstamp.lua",
@@ -65,6 +73,7 @@
   },
   {
     "name": "Bittrex",
+    "owner": "JonathanSchubert",
     "version": "1.20",
     "docsURL": "https://github.com/JonathanSchubert/moneymoney-bittrex/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Bittrex.lua",
@@ -73,6 +82,7 @@
   },
   {
     "name": "Bondora",
+    "owner": "EmDee",
     "version": "1.10",
     "docsURL": "https://github.com/EmDee/moneymoney-bondora/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Bondora.lua",
@@ -81,6 +91,7 @@
   },
   {
     "name": "Burstcoin",
+    "owner": "https______sourceforge.net__projects__moneymoney-burstcoin__files__",
     "version": "0.10",
     "docsURL": "https://sourceforge.net/projects/moneymoney-burstcoin/files/",
     "fileURL": "https://moneymoney-app.com/extensions/burstcoin.lua",
@@ -89,6 +100,7 @@
   },
   {
     "name": "Cardano",
+    "owner": "aaronk6",
     "version": "1.01",
     "docsURL": "https://github.com/aaronk6/Cardano-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Cardano.lua",
@@ -97,6 +109,7 @@
   },
   {
     "name": "Coinbase",
+    "owner": "nicolindemann",
     "version": "1.00",
     "docsURL": "https://github.com/nicolindemann/coinbase-moneymoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Coinbase.lua",
@@ -105,6 +118,7 @@
   },
   {
     "name": "Coinbase Pro",
+    "owner": "leoschweizer",
     "version": "1.10",
     "docsURL": "https://github.com/leoschweizer/moneymoney-coinbase-pro/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Coinbase%20Pro.lua",
@@ -113,6 +127,7 @@
   },
   {
     "name": "Cryptopia",
+    "owner": "crietzschel",
     "version": "1.00",
     "docsURL": "https://github.com/crietzschel/moneymoney-cryptopia/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Cryptopia.lua",
@@ -121,6 +136,7 @@
   },
   {
     "name": "Dash",
+    "owner": "heseifert",
     "version": "0.20",
     "docsURL": "https://github.com/heseifert/Dash-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Dash.lua",
@@ -129,6 +145,7 @@
   },
   {
     "name": "EOS",
+    "owner": "jscurtu",
     "version": "0.10",
     "docsURL": "https://github.com/jscurtu/moneymoney-extension-eos/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Eosio.lua",
@@ -137,6 +154,7 @@
   },
   {
     "name": "EstateGuru",
+    "owner": "beanieboi",
     "version": "1.00",
     "docsURL": "https://github.com/beanieboi/moneymoney-estateguru/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/estateguru.lua",
@@ -145,6 +163,7 @@
   },
   {
     "name": "Ethereum",
+    "owner": "Jacubeit",
     "version": "0.10",
     "docsURL": "https://github.com/Jacubeit/Ethereum-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Ether.lua",
@@ -153,6 +172,7 @@
   },
   {
     "name": "Ethereum mit Erc20-Tokens",
+    "owner": "aaronk6",
     "version": "1.04",
     "docsURL": "https://github.com/aaronk6/ERC20-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/ERC20.lua",
@@ -161,6 +181,7 @@
   },
   {
     "name": "Ethereum mit Erc20-Tokens",
+    "owner": "crietzschel",
     "version": "0.20",
     "docsURL": "https://github.com/crietzschel/moneymoney-ethereum-tokens/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Ether-Erc20-Tokens.lua",
@@ -169,6 +190,7 @@
   },
   {
     "name": "HitBTC",
+    "owner": "gradlman",
     "version": "1.00",
     "docsURL": "https://github.com/gradlman/moneymoney-hitbtc/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/hitbtc.lua",
@@ -177,6 +199,7 @@
   },
   {
     "name": "IOTA",
+    "owner": "psperber",
     "version": "0.30",
     "docsURL": "https://github.com/psperber/IOTA-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/IOTA.lua",
@@ -185,6 +208,7 @@
   },
   {
     "name": "Kraken",
+    "owner": "aaronk6",
     "version": "1.06",
     "docsURL": "https://github.com/aaronk6/Kraken-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Kraken.lua",
@@ -193,6 +217,7 @@
   },
   {
     "name": "Litecoin",
+    "owner": "zafai",
     "version": "0.20",
     "docsURL": "https://github.com/zafai/Litecoin-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Litecoin.lua",
@@ -201,6 +226,7 @@
   },
   {
     "name": "Nano",
+    "owner": "aaronk6",
     "version": "1.02",
     "docsURL": "https://github.com/aaronk6/Nano-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Nano.lua",
@@ -209,6 +235,7 @@
   },
   {
     "name": "NEO",
+    "owner": "Jacubeit",
     "version": "0.20",
     "docsURL": "https://github.com/Jacubeit/NEO-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/NEO.lua",
@@ -217,7 +244,8 @@
   },
   {
     "name": "Nimiq",
-    "version": "1.10",
+    "owner": "paberr",
+    "version": "1.20",
     "docsURL": "https://github.com/paberr/nimiq-moneymoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Nimiq.lua",
     "key": "nimiq",
@@ -225,6 +253,7 @@
   },
   {
     "name": "Oikocredit",
+    "owner": "adri",
     "version": "1.00",
     "docsURL": "https://github.com/adri/moneymoney-oikocredit-nl/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/oikokredit.lua",
@@ -233,6 +262,7 @@
   },
   {
     "name": "Ripple",
+    "owner": "aaronk6",
     "version": "1.00",
     "docsURL": "https://github.com/aaronk6/Ripple-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Ripple.lua",
@@ -241,6 +271,7 @@
   },
   {
     "name": "Stellar",
+    "owner": "heseifert",
     "version": "0.10",
     "docsURL": "https://github.com/heseifert/Stellar-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Stellar.lua",
@@ -249,6 +280,7 @@
   },
   {
     "name": "Storj",
+    "owner": "silsha",
     "version": "0.10",
     "docsURL": "https://github.com/silsha/STORJ-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Storj.lua",
@@ -257,6 +289,7 @@
   },
   {
     "name": "TRON",
+    "owner": "aaronk6",
     "version": "1.02",
     "docsURL": "https://github.com/aaronk6/TRON-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/TRON.lua",
@@ -265,6 +298,7 @@
   },
   {
     "name": "Twino",
+    "owner": "beanieboi",
     "version": "1.00",
     "docsURL": "https://github.com/beanieboi/moneymoney-twino/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/twino.lua",
@@ -273,6 +307,7 @@
   },
   {
     "name": "Zcash",
+    "owner": "crietzschel",
     "version": "1.00",
     "docsURL": "https://github.com/crietzschel/moneymoney-zcash/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Zcash.lua",
@@ -281,6 +316,7 @@
   },
   {
     "name": "Addiko Bank",
+    "owner": "ulrichson",
     "version": "1.00",
     "docsURL": "https://github.com/ulrichson/moneymoney-addiko-at/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/AddikoAustria.lua",
@@ -289,7 +325,8 @@
   },
   {
     "name": "Amazon",
-    "version": "1.04",
+    "owner": "Michael-Beutling",
+    "version": "1.08",
     "docsURL": "https://github.com/Michael-Beutling/Amazon-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/amazon-orders.lua",
     "key": "amazon",
@@ -297,6 +334,7 @@
   },
   {
     "name": "Appfigures",
+    "owner": "frankrausch",
     "version": "1.00",
     "docsURL": "https://github.com/frankrausch/MoneyMoney-Appfigures-Extension/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Appfigures.lua",
@@ -305,6 +343,7 @@
   },
   {
     "name": "BAWAG PSK",
+    "owner": "frittex",
     "version": "1.00",
     "docsURL": "https://github.com/frittex/moneymoney-bawagpsk/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/mm-bawagpsk.lua",
@@ -312,7 +351,17 @@
     "description": "Kontostand- und Umsatzabfrage für die BAWAG PSK, entwickelt von frittex."
   },
   {
+    "name": "DeutschlandCard",
+    "owner": "markwiesemann",
+    "version": "1.10",
+    "docsURL": "https://github.com/markwiesemann/moneymoney-deutschlandcard/blob/master/README.md",
+    "fileURL": "https://moneymoney-app.com/extensions/Deutschlandcard-Punkte.lua",
+    "key": "deutschlandcard",
+    "description": "Kontostand- und Umsatzabfrage für DeutschlandCard, entwickelt von Mark Wiesemann."
+  },
+  {
     "name": "easybank",
+    "owner": "kolomanschaft",
     "version": "0.10",
     "docsURL": "https://github.com/kolomanschaft/mm-easybank/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/EasyBank.lua",
@@ -321,6 +370,7 @@
   },
   {
     "name": "Lloyds Bank UK",
+    "owner": "gdelmas",
     "version": "1.03",
     "docsURL": "https://github.com/gdelmas/LloydsBank-MoneyMoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Lloyds%20Bank%20UK.lua",
@@ -329,6 +379,7 @@
   },
   {
     "name": "Moneyou Österreich",
+    "owner": "ulrichson",
     "version": "1.10",
     "docsURL": "https://github.com/ulrichson/moneymoney-moneyou-at/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/MoneyouAustria.lua",
@@ -337,6 +388,7 @@
   },
   {
     "name": "Monzo",
+    "owner": "diederich",
     "version": "0.91",
     "docsURL": "https://github.com/diederich/moneymoney-monzo/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Monzo.lua",
@@ -345,6 +397,7 @@
   },
   {
     "name": "Oberbank Österreich",
+    "owner": "kolomanschaft",
     "version": "0.20",
     "docsURL": "https://github.com/kolomanschaft/mm-oberbank/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Oberbank.lua",
@@ -353,6 +406,7 @@
   },
   {
     "name": "Paxum",
+    "owner": "iam-pac-man",
     "version": "2.00",
     "docsURL": "https://github.com/iam-pac-man/moneymoney-paxum/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Paxum.lua",
@@ -361,6 +415,7 @@
   },
   {
     "name": "PayLife",
+    "owner": "phpwutz",
     "version": "1.00",
     "docsURL": "https://github.com/phpwutz/moneymoney-mastercardred-ext/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/MasterCard%20RED.lua",
@@ -369,6 +424,7 @@
   },
   {
     "name": "Permanent TSB Business",
+    "owner": "janmuennich",
     "version": "1.01",
     "docsURL": "https://github.com/janmuennich/MoneyMoney-Permanent-TSB-Business/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Permanent%20TSB%20Business.lua",
@@ -377,6 +433,7 @@
   },
   {
     "name": "Shoop",
+    "owner": "gharlan",
     "version": "1.03",
     "docsURL": "https://github.com/gharlan/moneymoney-shoop/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Shoop.lua",
@@ -385,6 +442,7 @@
   },
   {
     "name": "Stripe",
+    "owner": "nicolindemann",
     "version": "1.00",
     "docsURL": "https://github.com/nicolindemann/stripe-moneymoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Stripe.lua",
@@ -393,6 +451,7 @@
   },
   {
     "name": "TrueLayer",
+    "owner": "miracle2k",
     "version": "0.10",
     "docsURL": "https://github.com/miracle2k/moneymoney-truelayer/blob/master/README.md",
     "fileURL": "https://github.com/miracle2k/moneymoney-truelayer",
@@ -401,6 +460,7 @@
   },
   {
     "name": "Uberspace.de",
+    "owner": "puppe",
     "version": "1.02",
     "docsURL": "https://github.com/puppe/moneymoney-uberspace/blob/master/README.markdown",
     "fileURL": "https://moneymoney-app.com/extensions/Uberspace.lua",
@@ -409,6 +469,7 @@
   },
   {
     "name": "Bergfürst",
+    "owner": "nicolindemann",
     "version": "1.00",
     "docsURL": "https://github.com/nicolindemann/bergfuerst-moneymoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/bergfuerst.lua",
@@ -417,6 +478,7 @@
   },
   {
     "name": "EquatePlus",
+    "owner": "Michael-Beutling",
     "version": "1.15",
     "docsURL": "https://github.com/Michael-Beutling/equateplus-moneymoney/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/EquatePlus.lua",
@@ -425,6 +487,7 @@
   },
   {
     "name": "fairr.de",
+    "owner": "Struppie",
     "version": "1.00",
     "docsURL": "https://github.com/Struppie/MoneyMoney---Extensions/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/fairrByRaisin.lua",
@@ -433,6 +496,7 @@
   },
   {
     "name": "Fidelity NetBenefits",
+    "owner": "lumaxis",
     "version": "0.03",
     "docsURL": "https://github.com/lumaxis/fidelity-netbenefits/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Fidelity%20NetBenefits.lua",
@@ -441,6 +505,7 @@
   },
   {
     "name": "Planetshares BNP Paribas",
+    "owner": "danhae",
     "version": "0.02",
     "docsURL": "https://github.com/danhae/MoneyMoney-Planetshares-BNP-Paribas/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Planetshares%20BNP%20Paribas.lua",
@@ -449,6 +514,7 @@
   },
   {
     "name": "Whitebox",
+    "owner": "mirkowein",
     "version": "1.06",
     "docsURL": "https://github.com/mirkowein/moneymoney-whitebox/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/Whitebox.lua",
@@ -457,22 +523,25 @@
   },
   {
     "name": "HTML-Datei",
+    "owner": "0bp",
     "version": "1.02",
     "docsURL": "https://gist.github.com/0bp/8445592#gistcomment-987501",
     "fileURL": "https://moneymoney-app.com/extensions/HTML%20Export.lua",
-    "key": "html-datei",
+    "key": "html-datei-0bp",
     "description": "Export von Umsätzen als HTML-Datei, entwickelt von Boris Penck."
   },
   {
     "name": "HTML-Datei",
+    "owner": "SwankyCrones",
     "version": "1.00",
     "docsURL": "https://github.com/SwankyCrones/MoneyMoney-Extensions/blob/master/README.md",
     "fileURL": "https://github.com/SwankyCrones/MoneyMoney-Extensions",
-    "key": "html-datei",
+    "key": "html-datei-swankycrones",
     "description": "Export von Umsätzen als HTML-Datei, entwickelt von Joern Thiemann."
   },
   {
     "name": "Kategorie-Summen",
+    "owner": "phillipoertel",
     "version": "1.10",
     "docsURL": "https://github.com/phillipoertel/moneymoney-extensions/blob/master/README.md",
     "fileURL": "https://moneymoney-app.com/extensions/CategorySums.lua",

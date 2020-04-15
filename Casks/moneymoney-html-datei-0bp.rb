@@ -1,5 +1,5 @@
 
-cask 'moneymoney-html-datei' do
+cask 'moneymoney-html-datei-0bp' do
   version '1.02'
   sha256 :no_check
 
@@ -8,6 +8,4 @@ cask 'moneymoney-html-datei' do
   homepage "https://gist.github.com/0bp/8445592#gistcomment-987501"
 
   artifact "HTML Export.lua", target: "#{ENV['HOME']}/Library/Containers/com.moneymoney-app.retail/Data/Library/Application Support/MoneyMoney/Extensions/HTML Export.lua"
-end
-ons/MoneyMoney-Extensions"
 end

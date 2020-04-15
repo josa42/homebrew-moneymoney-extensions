@@ -54,14 +54,6 @@ const all = async (url, ...query) => {
   })
 }
 
-const isLua = (f) => f.trim().match(/\.lua$/)
-
-const luaFiles = async (owner, repo, dir) => {
-  const files = (await all(`https://github.com/${owner}/${repo}/tree/master/${dir}`, x('tr', ['a']))).filter(isLua)
-  return files.map(f => `${dir}/${f}`)
-
-}
-
 const getKey = (owner, repo, name) => keys[`${owner}/${repo}`] || name.replace(/[ .]/g, '-').toLowerCase().replace(/-österreich$/, '-at')
 
 const getExtensions = async () => {
@@ -74,7 +66,7 @@ const getExtensions = async () => {
     fileURL: 'a.btn[title]@href',
   }])
 
-  return await Promise.all(items
+  return (await Promise.all(items
     .filter(ext => ext.fileURL && ext.docsURL)
     .map(async (ext) => {
       const owner = ext.docsURL.replace(/^.*github.com\/([^/]+)\/.*$/, '$1').replace(/[:/?]/g, '__')
@@ -82,22 +74,42 @@ const getExtensions = async () => {
 
       return {
         name: ext.name,
+        owner,
         version: ext.version.replace(/^Version /, ''),
         docsURL: ext.docsURL,
         fileURL: ext.fileURL,
         key: getKey(owner, repo, ext.name),
         description: ext.description.replace(/^• /, ''),
       }
-    }))
+    })))
+    .reduce((all, ext) => {
+      if (all.some(({ key }) => key === ext.key)) {
+        let i = 0
+        const baseKey = ext.key
+
+        const ext2 = all.find(({ key }) => key === ext.key);
+        all = all.filter(({ key }) => key !== ext.key)
+
+        ;[ext, ext2].forEach((ext) => {
+          if (ext.owner) {
+            ext.key = `${baseKey}-${ext.owner}`.toLowerCase()
+          }
+
+          while (all.some(({ key }) => key === ext.key)) {
+            ext.key = `${baseKey}-${++i}`
+          }
+        })
+
+        return [...all, ext2, ext]
+
+      }
+      return [...all, ext]
+    }, [])
+
 
 }
 
 const main = async () => {
-  const items = await all('https://moneymoney-app.com/extensions/', 'tr', [{
-    name: 'td b',
-    description: 'td',
-    docs: 'a.btn@href'
-  }])
 
   let extensions = []
   const extensionsPath = path.join(__dirname, '..', 'extensions.json')
@@ -106,17 +118,23 @@ const main = async () => {
     extensions = require(extensionsPath)
 
   } catch (ex) {
-    const extensions = await getExtensions()
+    extensions = await getExtensions()
+    console.log('=>', extensions)
     await fs.writeFile(path.join(__dirname, '..', 'extensions.json'), JSON.stringify(extensions, '', '  '))
   }
+
+  console.log('=>', extensions)
 
   // console.log('=> delete all', await fs.readdir(casksDir))
   await Promise.all((await fs.readdir(casksDir)).map(f => fs.unlink(path.join(casksDir, f))))
 
   // console.log('=> write')
   await Promise.all(extensions.map(ext =>
+    console.log(`moneymoney-${ext.key}.rb`) ||
     fs.writeFile(path.join(casksDir, `moneymoney-${ext.key}.rb`), cask(ext))
   ))
+
+  console.log('√')
 
   let inside = false
   readmePath = path.join(__dirname, '..', 'README.md')
@@ -133,7 +151,7 @@ const main = async () => {
 
       } else if (line == '## MoneyMoney Extensions') {
         inside = true
-        lines = [...lines, line, '', ...extensions.map(e => `- **\`moneymoney-${e.key}\` (\`${e.version}\`)**  \n  ${e.description} [[repo](${e.url})]`), '']
+        lines = [...lines, line, '', ...extensions.map(e => `- **\`moneymoney-${e.key}\` (\`${e.version}\`)**  \n  ${e.description} [[repo](${e.docsURL})]`), '']
       } else {
         lines = [...lines, line]
       }

@@ -1,6 +1,6 @@
 
 cask 'moneymoney-amazon' do
-  version '1.04'
+  version '1.08'
   sha256 :no_check
 
   url 'https://moneymoney-app.com/extensions/amazon-orders.lua'

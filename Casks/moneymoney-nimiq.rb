@@ -1,6 +1,6 @@
 
 cask 'moneymoney-nimiq' do
-  version '1.10'
+  version '1.20'
   sha256 :no_check
 
   url 'https://moneymoney-app.com/extensions/Nimiq.lua'
